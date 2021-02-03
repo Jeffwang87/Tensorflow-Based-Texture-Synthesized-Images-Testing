@@ -7,7 +7,7 @@ To generate the texture synthesized images run the following command. Make sure 
 ```python
 python3 Generating_images.py
 ```
-To run the code testing the accuracy of prediction on those images. Make sure you set the directory in the code
+To run the code testing the accuracy of prediction on synthesized images. Make sure you set the directory in the code
 ```python
 python3 Testing.py
 ```
