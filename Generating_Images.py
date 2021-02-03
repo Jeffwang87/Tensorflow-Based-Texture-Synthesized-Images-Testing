@@ -1,4 +1,4 @@
-from tensorflow_vgg import vgg16_avg_pool
+import vgg16_avg_pool
 import matplotlib.pyplot as plt
 %matplotlib inline
 import numpy as np
@@ -64,7 +64,7 @@ def run_texture_synthesis(input_filename, m, eps, op_dir, initial_filename, fina
     
 m = [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1)]
 eps = 500
-dir =
+dir = "set your images directory"
 for image in sorted(os.listdir(dir)):
     ip_f = dir + '/' + image
     output_dir = "./Output/"
