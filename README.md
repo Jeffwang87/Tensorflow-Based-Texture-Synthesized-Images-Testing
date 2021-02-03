@@ -1,4 +1,4 @@
-# Tensorflow Based Texture Synthesized Images testing
+# Tensorflow Based Texture Synthesized Images Testing
 This is the code to generate texture synthesized images and test Vgg net accuracy on those images.
 The code is based on https://arxiv.org/pdf/1505.07376.pdf and https://github.com/meet-minimalist/Texture-Synthesis-Using-Convolutional-Neural-Networks
 
