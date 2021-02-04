@@ -1,3 +1,9 @@
+"""
+Load texture synthesized images to test accuracy of vgg net prediction
+authors: Jianxin Wang
+
+"""
+
 from torchvision import models
 import torch
 from torch.utils.data import Dataset, DataLoader
