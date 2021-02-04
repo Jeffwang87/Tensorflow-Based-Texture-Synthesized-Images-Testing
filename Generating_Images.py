@@ -1,3 +1,9 @@
+"""
+Generate texture synthesized images
+authors: Jianxin Wang
+
+"""
+
 import vgg16_avg_pool
 import matplotlib.pyplot as plt
 %matplotlib inline
